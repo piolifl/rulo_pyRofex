@@ -67,7 +67,7 @@ while True:
         cable_pesos(al30c_48.precio_LA(),gd30c_48.precio_LA(),gd30_48.precio_LA(),al30_48.precio_LA())
         if  venta_total<limite and compro_pesos>=inicial - 1  and al30c_48.precio_LA() != 100:   
 
-            AL30.vender(al30c_48,inicial,al30c_48.precio_LA() +1)
+            AL30.vender(al30c_48,inicial,al30c_48.precio_LA()+1)
             #precio = al30c_48.precio_BI() + 1 
             if pregunta('FILLED','MERV - XMEV - AL30C - 48HS',inicial,al30c_48.precio_LA()+1,'SELL') == 'no':
                 timeout = 5           
