@@ -1,4 +1,5 @@
-import pyRofex, config
+import pyRofex
+from Pass import config
 
 pyRofex._set_environment_parameter(
     "url", "https://api.eco.xoms.com.ar/", pyRofex.Environment.LIVE)
